@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Blog Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Header Section -->
+  <header class="bg-blue-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">MyBlog</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="hover:text-gray-300">Home</a></li>
+          <li><a href="#" class="hover:text-gray-300">Posts</a></li>
+          <li><a href="#" class="hover:text-gray-300">Categories</a></li>
+          <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Featured Posts Section -->
+  <section class="container mx-auto py-8">
+    <h2 class="text-2xl font-bold mb-4">Featured Posts</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <img src="featured1.jpg" alt="Post 1" class="rounded-t-lg">
+        <h3 class="text-xl font-semibold mt-4">Post Title 1</h3>
+        <p class="mt-2">This is a brief description of the featured post.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <img src="featured2.jpg" alt="Post 2" class="rounded-t-lg">
+        <h3 class="text-xl font-semibold mt-4">Post Title 2</h3>
+        <p class="mt-2">This is a brief description of the featured post.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <img src="featured3.jpg" alt="Post 3" class="rounded-t-lg">
+        <h3 class="text-xl font-semibold mt-4">Post Title 3</h3>
+        <p class="mt-2">This is a brief description of the featured post.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Section -->
+  <section class="container mx-auto py-8">
+    <h2 class="text-2xl font-bold mb-4">Categories</h2>
+    <div class="flex space-x-4">
+      <span class="bg-blue-500 text-white px-4 py-2 rounded-full">Tech</span>
+      <span class="bg-green-500 text-white px-4 py-2 rounded-full">Lifestyle</span>
+      <span class="bg-red-500 text-white px-4 py-2 rounded-full">Travel</span>
+      <span class="bg-yellow-500 text-white px-4 py-2 rounded-full">Food</span>
+    </div>
+  </section>
+
+  <!-- Recent Posts Section -->
+  <section class="container mx-auto py-8">
+    <h2 class="text-2xl font-bold mb-4">Recent Posts</h2>
+    <ul class="space-y-4">
+      <li class="bg-white p-4 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold">Recent Post Title 1</h3>
+        <p class="text-gray-600">Published on August 20, 2024</p>
+      </li>
+      <li class="bg-white p-4 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold">Recent Post Title 2</h3>
+        <p class="text-gray-600">Published on August 18, 2024</p>
+      </li>
+      <li class="bg-white p-4 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold">Recent Post Title 3</h3>
+        <p class="text-gray-600">Published on August 15, 2024</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Newsletter Subscription Form -->
+  <section class="container mx-auto py-8">
+    <h2 class="text-2xl font-bold mb-4">Subscribe to our Newsletter</h2>
+    <form class="bg-white p-6 rounded-lg shadow-md">
+      <div class="mb-4">
+        <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>
+        <input type="email" id="email" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" placeholder="Enter your email">
+      </div>
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-md">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <p>&copy; 2024 MyBlog. All Rights Reserved.</p>
+      <div class="flex space-x-4">
+        <a href="#" class="hover:text-gray-400">Facebook</a>
+        <a href="#" class="hover:text-gray-400">Twitter</a>
+        <a href="#" class="hover:text-gray-400">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
